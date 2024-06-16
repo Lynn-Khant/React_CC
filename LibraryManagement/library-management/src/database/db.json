@@ -1,0 +1,51 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Eloquent javascript",
+      "description": "Best JS book",
+      "categories": [
+        "Javascript",
+        "Programming"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Laravel On Point",
+      "description": "Best Laravel book",
+      "categories": [
+        "PHP",
+        "Programming",
+        "Laravel"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "PHP On Point",
+      "description": "Best PHP book",
+      "categories": [
+        "PHP",
+        "Programming",
+        "Backend"
+      ]
+    },
+    {
+      "id": "298a",
+      "title": "C programming",
+      "description": "Best C Programming Book",
+      "categories": [
+        "Programming",
+        "C"
+      ]
+    },
+    {
+      "id": "e0f2",
+      "title": "Introduction to Algorithms",
+      "description": "Best DSA Book",
+      "categories": [
+        "algorithms",
+        "data structures"
+      ]
+    }
+  ]
+}

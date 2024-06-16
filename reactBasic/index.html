@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Basic</title>
+    <!-- React CDN Link -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> 
+    <!-- Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <div id="main"></div>
+    <footer>Footer</footer>
+</body>
+<script type="text/babel">
+    
+    const Main=()=>{
+        const name="MgMg";
+        const number=22;
+        const className="new-class";
+        const clickHandler=(e)=>{
+            console.log(e);
+            alert("Hello React");
+        }
+
+        return(
+            <div className={className}>
+                <h1>{name}</h1>
+                <h1>{number}</h1>
+                <button onClick={clickHandler}>Click Me</button>
+            </div>
+        )
+    }
+
+    const rootContainer=document.getElementById('main');
+    let root=ReactDOM.createRoot(rootContainer);
+    let e=React.createElement;
+    root.render(e(Main));
+</script>
+</html>
